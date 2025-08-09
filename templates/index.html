@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block content %}
+Entradas
+
+    {% for entrada in entradas %}
+    {{ entrada.titulo }}
+    {% endfor %} 
+
+{% endblock %} 

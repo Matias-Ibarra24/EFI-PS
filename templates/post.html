@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>{{ entrada.titulo }}</h2>
+    <p>{{ entrada.contenido }}</p>
+    <p>Publicado por: {{ entrada.autor.nombre_usuario }} el {{ entrada.fecha_creacion }}</p>
+{% endblock %}
