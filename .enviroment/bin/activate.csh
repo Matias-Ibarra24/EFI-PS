@@ -9,7 +9,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV /home/matias/Documentos/2do/PPPython/EFI-PS/.enviroment
+setenv VIRTUAL_ENV '/home/garaysantiago/segundo-año/PP1-Python/EFI-PS/.enviroment'
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/"bin":$PATH"
